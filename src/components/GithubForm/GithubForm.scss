@@ -1,0 +1,49 @@
+.GithubForm {
+    .input-box {
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+
+            &.error {
+                border-color: red;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+
+
+            &.disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+
+                &:hover {
+                    background-color: #ccc;
+                }
+            }
+
+
+            &:hover {
+                background-color: #0069d9;
+            }
+        }
+
+    }
+}

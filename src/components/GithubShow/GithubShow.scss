@@ -1,0 +1,46 @@
+.GithubShow {
+
+    .main-container {
+        .profile {
+
+            display: flex;
+            // align-items: center;
+
+            .avatar {
+                width: 80px;
+                line-height: 0;
+                border: 1px solid #00000061;
+                border-radius: 50%;
+
+                img {
+                    max-width: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .title {
+                padding-left: 1rem;
+
+                .name {
+                    font-size: 1.8rem;
+                    font-family: 'Afacad', sans-serif;
+                    font-weight: 600;
+                }
+
+                .login {
+                    font-size: 1.1rem;
+                    font-family: monospace;
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
