@@ -1,6 +1,10 @@
 .GithubShow {
 
+
     .main-container {
+        width: 500px;
+        margin: auto;
+
         .profile {
 
             display: flex;
@@ -40,7 +44,54 @@
                         }
                     }
                 }
+
+                .joinDate {
+                    font-size: 0.9rem;
+                    font-family: monospace;
+                    padding-top: 0.2rem;
+
+                    span {
+                        font-weight: 600;
+                        color: #4a4a4a;
+                    }
+                }
             }
         }
+
+        .bio {
+            p {
+                font-size: 1.1rem;
+                font-family: 'Afacad', sans-serif;
+                margin-top: 0.4rem;
+                margin-bottom: 0.4rem;
+            }
+        }
+
+        .info {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            border-radius: 13px;
+            background-color: #dedede;
+            font-family: "Afacad", sans-serif;
+
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.3rem;
+
+                span {
+                    &:first-of-type {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+
     }
 }

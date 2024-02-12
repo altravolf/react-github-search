@@ -1,0 +1,58 @@
+.GithubRepos {
+    font-family: "Afacad", sans-serif;
+
+    h2 {
+        text-align: center;
+        margin: 0.8rem 0;
+        font-size: 2rem;
+    }
+
+    .repos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+
+        .repo {
+            background-color: #e4e4e4;
+            padding: 1rem;
+            border-radius: 13px;
+            margin-bottom: 1rem;
+            width: 26%;
+
+            .repo-name {
+                font-size: 1.2rem;
+                text-align: center;
+                font-weight: 600;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .repo-info {
+                display: flex;
+                gap: 0.5rem;
+                justify-content: space-between;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+                    span {
+                        &:first-of-type {
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
